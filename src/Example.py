@@ -3,7 +3,7 @@ from TextProcessor import TextProcessor
 
 scraper = SimpleNewsScraper()
 # retrieve news links from meinbezirk.at
-scraper.parse_news_links(max_number_articles=20)
+scraper.parse_news_links(max_number_articles=2)
 # scrape texts from retrieved links
 scraper.text_scraping()
 

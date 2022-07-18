@@ -137,6 +137,7 @@ class TextProcessor():
                                                  self.word_stem_tags,
                                                  self.synonym_sentences):
                 writer.writerow([orig, pre, lemm, tag, syn])
+            print("Created csv report.")
 
 
 
